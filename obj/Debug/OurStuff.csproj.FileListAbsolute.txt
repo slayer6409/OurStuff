@@ -1,0 +1,12 @@
+G:\Users\Andrew\Documents\My Games\Terraria\ModLoader\Mod Sources\OurStuff\bin\Debug\OurStuff.dll
+G:\Users\Andrew\Documents\My Games\Terraria\ModLoader\Mod Sources\OurStuff\bin\Debug\OurStuff.pdb
+G:\Users\Andrew\Documents\My Games\Terraria\ModLoader\Mod Sources\OurStuff\bin\Debug\Microsoft.Xna.Framework.dll
+G:\Users\Andrew\Documents\My Games\Terraria\ModLoader\Mod Sources\OurStuff\bin\Debug\Microsoft.Xna.Framework.Game.dll
+G:\Users\Andrew\Documents\My Games\Terraria\ModLoader\Mod Sources\OurStuff\bin\Debug\Microsoft.Xna.Framework.Graphics.dll
+G:\Users\Andrew\Documents\My Games\Terraria\ModLoader\Mod Sources\OurStuff\bin\Debug\Microsoft.Xna.Framework.Xact.dll
+G:\Users\Andrew\Documents\My Games\Terraria\ModLoader\Mod Sources\OurStuff\bin\Debug\Terraria.exe
+G:\Users\Andrew\Documents\My Games\Terraria\ModLoader\Mod Sources\OurStuff\obj\Debug\OurStuff.csprojAssemblyReference.cache
+G:\Users\Andrew\Documents\My Games\Terraria\ModLoader\Mod Sources\OurStuff\obj\Debug\OurStuff.csproj.CoreCompileInputs.cache
+G:\Users\Andrew\Documents\My Games\Terraria\ModLoader\Mod Sources\OurStuff\obj\Debug\OurStuff.csproj.CopyComplete
+G:\Users\Andrew\Documents\My Games\Terraria\ModLoader\Mod Sources\OurStuff\obj\Debug\OurStuff.dll
+G:\Users\Andrew\Documents\My Games\Terraria\ModLoader\Mod Sources\OurStuff\obj\Debug\OurStuff.pdb

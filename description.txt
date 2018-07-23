@@ -1,12 +1,26 @@
 Our Stuff is our stuff.
-Join the discord
+Join the discord! Get involved and maybe have your Ideas created!
 https://discord.gg/gmVWpYT
 
-This mod adds a few items at the moment. 
-We are working on adding more.
+This mod adds:
+2 Armor Sets
+Infinite Health/Mana Potions of each tier
+Some strange Items
+Time Swap Potion - Hopefully fixed
+1 Food Item
+2 Magic Weapons
+1 Material 
+3 'Craftable' Melee Weapons
+1 Early game ranged gun/ammo
+41 Throwing weapons
+1 New Enemy
+ 
+We are working on adding more items every day.
 
-The Infinite Healing potions are a bit buggy if you use the auto healing key.
-Except for the mega infinite healing potion. That one is designed to not work with the auto Healing.
+WAY TOO MANY SHURIKENS
+
+The Infinite Healing/Mana potions are a bit buggy if you use the auto healing/mana key (It will consume it).
+Except for the mega infinite healing/mana potion. That one is designed to not work with the auto.
 
 I am learning as I go.
 Sorry for the poor quality.

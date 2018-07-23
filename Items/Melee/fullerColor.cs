@@ -31,13 +31,7 @@ namespace OurStuff.Items.Melee
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(ItemID.Ruby, 4);
-			recipe.AddIngredient(ItemID.Diamond, 4);
-			recipe.AddIngredient(ItemID.Emerald, 4);
-			recipe.AddIngredient(ItemID.Topaz, 4);
-			recipe.AddIngredient(ItemID.Amethyst, 4);
-			recipe.AddIngredient(ItemID.Sapphire, 4);
-			recipe.AddIngredient(ItemID.Amber, 4);
+			recipe.AddIngredient(mod, "rainbowCore");
 			recipe.AddIngredient(ItemID.SoulofLight, 10);
 			recipe.AddIngredient(ItemID.CrystalShard, 10);
 			recipe.AddIngredient(mod, "fullColor");

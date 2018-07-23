@@ -1,10 +1,8 @@
-using System;
 using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
- 
+
 namespace OurStuff.Projectiles
 {
     public class DemonShurikenProjectile : ModProjectile
@@ -37,7 +35,7 @@ namespace OurStuff.Projectiles
         {                                                           // sound that the projectile make when hiting the terrain
             {
                 projectile.Kill();
-				if (Main.rand.Next(2) == 1){
+				if (Main.rand.Next(10) == 0){
 					Item.NewItem((int)projectile.position.X, (int)projectile.position.Y, projectile.width, projectile.height, (mod.ItemType("DemonShuriken")));
 				}
  

@@ -35,7 +35,8 @@ namespace OurStuff.Items.Magic
 			recipe.AddIngredient(mod, "ancientSkull");
 			recipe.AddIngredient(ItemID.SoulofNight, 10);
 			recipe.AddIngredient(ItemID.CursedFlame, 10);
-			recipe.AddTile(TileID.MythrilAnvil);
+            recipe.AddIngredient(ItemID.Bone, 10);
+            recipe.AddTile(TileID.MythrilAnvil);
 			recipe.SetResult(this);
 			recipe.AddRecipe();
 		}

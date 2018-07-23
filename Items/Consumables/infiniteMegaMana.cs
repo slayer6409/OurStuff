@@ -29,9 +29,22 @@ namespace OurStuff.Items.Consumables{
             item.height = 21;
             item.value = 100;                
             item.rare = 9;
-            item.healMana = 99999;
-			item.autoReuse = true;
+            item.autoReuse = true;
         }
+
+        public override bool UseItem(Player player)
+        {
+            int MaxMana = player.statManaMax2;
+
+            int ManaHeal = MaxMana / 50;
+
+            player.statMana += ManaHeal;
+
+            return base.UseItem(player);
+        }
+
+
+
 
         public override void AddRecipes()
         {

@@ -32,7 +32,7 @@ namespace OurStuff.Items.Magic
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(ItemID.BoneBlock, 5);
+			recipe.AddIngredient(ItemID.Bone, 10);
 			recipe.AddIngredient(ItemID.WaterCandle, 1);
 			recipe.AddIngredient(ItemID.HellstoneBar, 10);
 			recipe.AddTile(TileID.Anvils);

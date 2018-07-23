@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -33,7 +33,129 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="**\*.cs" />
+    <Compile Include="Items\Armor\Chef\ChefArmorBody.cs" />
+    <Compile Include="Items\Armor\Chef\ChefArmorHead.cs" />
+    <Compile Include="Items\Armor\Chef\ChefArmorLegs.cs" />
+    <Compile Include="Items\Armor\MoltenNinja\MoltenNinjaBody.cs" />
+    <Compile Include="Items\Armor\MoltenNinja\MoltenNinjaHelmet.cs" />
+    <Compile Include="Items\Armor\MoltenNinja\MoltenNinjaLegs.cs" />
+    <Compile Include="ModGlobalNPC.cs" />
+    <Compile Include="Items\Consumables\InverseBloodDiamond.cs" />
+    <Compile Include="Items\Consumables\infiniteGreaterHeal.cs" />
+    <Compile Include="Items\Consumables\infiniteGreaterMana.cs" />
+    <Compile Include="Items\Consumables\infiniteHealing.cs" />
+    <Compile Include="Items\Consumables\infiniteLesserHeal.cs" />
+    <Compile Include="Items\Consumables\infiniteLesserMana.cs" />
+    <Compile Include="Items\Consumables\infiniteMana .cs" />
+    <Compile Include="Items\Consumables\infiniteMegaHeal.cs" />
+    <Compile Include="Items\Consumables\infiniteMegaMana.cs" />
+    <Compile Include="Items\Consumables\infiniteSuperHeal.cs" />
+    <Compile Include="Items\Consumables\infiniteSuperMana.cs" />
+    <Compile Include="Items\Consumables\BloodDiamond.cs" />
+    <Compile Include="Items\Consumables\spaghet.cs" />
+    <Compile Include="Items\Consumables\TimeSwapPotion.cs" />
+    <Compile Include="Items\Magic\ancientSkull.cs" />
+    <Compile Include="Items\Magic\SkullofDoom.cs" />
+    <Compile Include="Items\Materials\rainbowCore.cs" />
+    <Compile Include="Items\Melee\bigolNoodle.cs" />
+    <Compile Include="Items\Melee\fullColor.cs" />
+    <Compile Include="Items\Melee\fullerColor.cs" />
+    <Compile Include="Items\Melee\lilolNoodle.cs" />
+    <Compile Include="Items\Melee\VirtualSword.cs" />
+    <Compile Include="Items\Ranged\woodenBullet.cs" />
+    <Compile Include="Items\Ranged\woodenGun.cs" />
+    <Compile Include="Items\Throwing\AdamantiteShuriken.cs" />
+    <Compile Include="Items\Throwing\BloodShuriken.cs" />
+    <Compile Include="Items\Throwing\ChlorophyteShuriken.cs" />
+    <Compile Include="Items\Throwing\CobaltShuriken.cs" />
+    <Compile Include="Items\Throwing\CopperShuriken.cs" />
+    <Compile Include="Items\Throwing\DemonShuriken.cs" />
+    <Compile Include="Items\Throwing\DiamondSaw.cs" />
+    <Compile Include="Items\Throwing\DirtyThrow.cs" />
+    <Compile Include="Items\Throwing\DrownedShuriken.cs" />
+    <Compile Include="Items\Throwing\FlamingShuriken.cs" />
+    <Compile Include="Items\Throwing\GoldenShuriken.cs" />
+    <Compile Include="Items\Throwing\IchorShuriken.cs" />
+    <Compile Include="Items\Throwing\CursedShuriken.cs" />
+    <Compile Include="Items\Throwing\EctoThrow.cs" />
+    <Compile Include="Items\Throwing\HallowedShuriken.cs" />
+    <Compile Include="Items\Throwing\FrozenFling.cs" />
+    <Compile Include="Items\Throwing\TrueHallowedShuriken.cs" />
+    <Compile Include="Items\Throwing\ShurikenOfTheEarth.cs" />
+    <Compile Include="Items\Throwing\ShurikenOfTheMoon.cs" />
+    <Compile Include="Items\Throwing\Shurishroom.cs" />
+    <Compile Include="Items\Throwing\ThrowOfSight.cs" />
+    <Compile Include="Items\Throwing\ThrowOfFright.cs" />
+    <Compile Include="Items\Throwing\ThrowOfNight.cs" />
+    <Compile Include="Items\Throwing\ThrowOfLight.cs" />
+    <Compile Include="Items\Throwing\ThrowOfFlight.cs" />
+    <Compile Include="Items\Throwing\ThrowOfMight.cs" />
+    <Compile Include="Items\Throwing\TrueNightsThrow.cs" />
+    <Compile Include="Items\Materials\BrokenShuriken.cs" />
+    <Compile Include="Items\Throwing\IronShuriken.cs" />
+    <Compile Include="Items\Throwing\LeadShuriken.cs" />
+    <Compile Include="Items\Throwing\LuminiteShuriken.cs" />
+    <Compile Include="Items\Throwing\MythrilShuriken.cs" />
+    <Compile Include="Items\Throwing\NightsThrow.cs" />
+    <Compile Include="Items\Throwing\OrichalcumShuriken.cs" />
+    <Compile Include="Items\Throwing\PalladiumShuriken.cs" />
+    <Compile Include="Items\Throwing\PlatinumShuriken.cs" />
+    <Compile Include="Items\Throwing\PoisonedShuriken .cs" />
+    <Compile Include="Items\Throwing\SilverShuriken.cs" />
+    <Compile Include="Items\Throwing\TinShuriken.cs" />
+    <Compile Include="Items\Throwing\TitaniumShuriken.cs" />
+    <Compile Include="Items\Throwing\TungstenShuriken.cs" />
+    <Compile Include="Items\Throwing\WoodenShuriken.cs" />
+    <Compile Include="NPCs\Enemies\Phantom.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="OurStuff.cs" />
+    <Compile Include="Projectiles\AdamantiteShurikenProjectile.cs" />
+    <Compile Include="Projectiles\ancientSkullProjectile.cs" />
+    <Compile Include="Projectiles\BloodShurikenProjectile.cs" />
+    <Compile Include="Projectiles\ChlorophyteShurikenProjectile.cs" />
+    <Compile Include="Projectiles\CobaltShurikenProjectile.cs" />
+    <Compile Include="Projectiles\CopperShurikenProjectile.cs" />
+    <Compile Include="Projectiles\DemonShurikenProjectile.cs" />
+    <Compile Include="Projectiles\DiamondSawProjectile.cs" />
+    <Compile Include="Projectiles\DirtyThrowProjectile.cs" />
+    <Compile Include="Projectiles\DrownedShurikenProjectile.cs" />
+    <Compile Include="Projectiles\CursedShurikenProjectile.cs" />
+    <Compile Include="Projectiles\IchorShurikenProjectile.cs" />
+    <Compile Include="Projectiles\FrozenFlingProjectile.cs" />
+    <Compile Include="Projectiles\FlamingShurikenProjectile.cs" />
+    <Compile Include="Projectiles\FullerColorProjectile.cs" />
+    <Compile Include="Projectiles\GoldenShurikenProjectile.cs" />
+    <Compile Include="Projectiles\HallowedShurikenProjectile.cs" />
+    <Compile Include="Projectiles\ShurikenOfTheEarthProjectile.cs" />
+    <Compile Include="Projectiles\ShurikenOfTheMoonProjectile.cs" />
+    <Compile Include="Projectiles\ShurishroomProjectile.cs" />
+    <Compile Include="Projectiles\ThrowOfFlightProjectile.cs" />
+    <Compile Include="Projectiles\ThrowOfFrightProjectile.cs" />
+    <Compile Include="Projectiles\ThrowOfLightProjectile.cs" />
+    <Compile Include="Projectiles\ThrowOfMightProjectile.cs" />
+    <Compile Include="Projectiles\ThrowOfNightProjectile.cs" />
+    <Compile Include="Projectiles\ThrowOfSightProjectile.cs" />
+    <Compile Include="Projectiles\TrueNightsThrowProjectile.cs" />
+    <Compile Include="Projectiles\TrueHallowedShurikenProjectile.cs" />
+    <Compile Include="Projectiles\EctoThrowProjectile.cs" />
+    <Compile Include="Projectiles\IronShurikenProjectile.cs" />
+    <Compile Include="Projectiles\LeadShurikenProjectile.cs" />
+    <Compile Include="Projectiles\LuminiteShurikenProjectile.cs" />
+    <Compile Include="Projectiles\MythrilShurikenProjectile.cs" />
+    <Compile Include="Projectiles\NightsThrowProjectile.cs" />
+    <Compile Include="Projectiles\OrichalcumShurikenProjectile.cs" />
+    <Compile Include="Projectiles\PalladiumShurikenProjectile.cs" />
+    <Compile Include="Projectiles\PlatinumShurikenProjectile.cs" />
+    <Compile Include="Projectiles\PoisonedShurikenProjectile.cs" />
+    <Compile Include="Projectiles\SilverShurikenProjectile.cs" />
+    <Compile Include="Projectiles\SkullofDoomProjectile.cs" />
+    <Compile Include="Projectiles\TinShurikenProjectile.cs" />
+    <Compile Include="Projectiles\TitaniumShurikenProjectile.cs" />
+    <Compile Include="Projectiles\TungstenShurikenProjectile.cs" />
+    <Compile Include="Projectiles\woodenBulletShot.cs" />
+    <Compile Include="Projectiles\WoodenShurikenProjectile.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
@@ -54,12 +176,12 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="Terraria">
-      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\terraria\Terraria.exe</HintPath>
+      <HintPath>E:\Program Files (x86)\Steam\SteamApps\common\Terraria\Terraria.exe</HintPath>
     </Reference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-   <PostBuildEvent>"C:\Program Files (x86)\Steam\steamapps\common\terraria\Terraria.exe" -build "$(ProjectDir)\" -eac "$(TargetPath)"</PostBuildEvent>
+    <PostBuildEvent>"C:\Program Files (x86)\Steam\steamapps\common\terraria\Terraria.exe" -build "$(ProjectDir)\" -eac "$(TargetPath)"</PostBuildEvent>
   </PropertyGroup>
 </Project>
-

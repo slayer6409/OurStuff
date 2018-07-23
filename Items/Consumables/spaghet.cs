@@ -23,7 +23,7 @@ namespace OurStuff.Items.Consumables{
             item.useTurn = true;
             item.useAnimation = 17;
             item.useTime = 17;
-            item.maxStack = 1;                 //this is where you set the max stack of item
+            item.maxStack = 999;                 //this is where you set the max stack of item
             item.consumable = true;           //this make that the item is consumable when used
             item.width = 20;
             item.height = 28;
@@ -31,11 +31,10 @@ namespace OurStuff.Items.Consumables{
             item.rare = 4;
             item.healLife = 50;
 			item.autoReuse = false;
-			item.buffType= 21;
-			item.maxStack = 999;
 			item.buffType= BuffID.WellFed;
 			item.buffTime = 12345; 
         }
+
 
         public override void AddRecipes()
         {
